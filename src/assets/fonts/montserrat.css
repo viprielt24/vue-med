@@ -1,0 +1,21 @@
+/* Sample font-face for Lato webfont */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Light';
+  src: url('montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Thin';
+  src: url('montserrat/Montserrat-Thin.ttf');
+}

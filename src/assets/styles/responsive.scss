@@ -1,0 +1,97 @@
+.container{
+  margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+  .section1 .container .slider .articles__item:first-child {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .section1 .container .slider .articles__item:nth-child(2),
+  .section2 .container .slider .doctors__item:nth-child(2),
+  .section2 .container .slider .doctors__item:last-child {
+    display: none;
+  }
+  .section2 .container .slider .doctors__item {
+  width: 100%;
+  max-width: 100%;
+  }
+  .section2 .container .slider .doctors__item-content {
+    max-width: 98%;
+  }
+  .section2 .container .slider .doctors__item-content .text {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .section1 .container .slider .articles__item:first-child {
+    flex-direction: column;
+  }
+  .section1 .container .slider .articles__item-content {
+    padding-left: 10px;
+  }
+
+  .section2 .container .slider .doctors__item {
+    flex-direction: column;
+  }
+
+  .section2 .container .slider .doctors__item-image {
+    width: 180px;
+    margin: auto;
+  }
+
+  .section2 .container .slider .doctors__item-content {
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+    width: auto;
+  }
+
+  .section1 .container .slider .nav__left,
+  .section1 .container .slider .nav__right,
+  .section2 .container .slider .nav__left,
+  .section2 .container .slider .nav__right {
+    margin: 0;
+  }
+
+  .section1 .container h2,
+  .section2 .container h2 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 310px;
+  }
+}
+
+@media (min-width: 345px) {
+  .container {
+    max-width: 341px;
+  }
+}
+
+@media (min-width:720px) {
+  .container {
+    max-width: 716px;
+  }
+}
+
+@media (min-width: 1030px) {
+  .container {
+    max-width: 1020px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1320px) {
+  .container {
+    max-width: 1315px;
+  }
+}
